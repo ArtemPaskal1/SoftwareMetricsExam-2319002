@@ -1,0 +1,28 @@
+Requirement already satisfied: pytest in c:\users\artem\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\artem\Desktop\EXAM\factorial(n)\requirements.txt (line 1)) (8.4.2)
+Requirement already satisfied: pytest-cov in c:\users\artem\appdata\local\programs\python\python313\lib\site-packages (from -r C:\Users\artem\Desktop\EXAM\factorial(n)\requirements.txt (line 2)) (7.0.0)
+Requirement already satisfied: colorama>=0.4 in c:\users\artem\appdata\local\programs\python\python313\lib\site-packages (from pytest->-r C:\Users\artem\Desktop\EXAM\factorial(n)\requirements.txt (line 1)) (0.4.6)
+Requirement already satisfied: iniconfig>=1 in c:\users\artem\appdata\local\programs\python\python313\lib\site-packages (from pytest->-r C:\Users\artem\Desktop\EXAM\factorial(n)\requirements.txt (line 1)) (2.1.0)
+Requirement already satisfied: packaging>=20 in c:\users\artem\appdata\local\programs\python\python313\lib\site-packages (from pytest->-r C:\Users\artem\Desktop\EXAM\factorial(n)\requirements.txt (line 1)) (25.0)
+Requirement already satisfied: pluggy<2,>=1.5 in c:\users\artem\appdata\local\programs\python\python313\lib\site-packages (from pytest->-r C:\Users\artem\Desktop\EXAM\factorial(n)\requirements.txt (line 1)) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in c:\users\artem\appdata\local\programs\python\python313\lib\site-packages (from pytest->-r C:\Users\artem\Desktop\EXAM\factorial(n)\requirements.txt (line 1)) (2.19.2)
+Requirement already satisfied: coverage>=7.10.6 in c:\users\artem\appdata\local\programs\python\python313\lib\site-packages (from coverage[toml]>=7.10.6->pytest-cov->-r C:\Users\artem\Desktop\EXAM\factorial(n)\requirements.txt (line 2)) (7.10.6)
+============================= test session starts =============================
+platform win32 -- Python 3.13.7, pytest-8.4.2, pluggy-1.6.0
+rootdir: C:\Users\artem\Desktop\EXAM\factorial(n)
+configfile: setup.cfg
+plugins: cov-7.0.0
+collected 3 items
+
+..\..\..\..\..\Users\artem\Desktop\EXAM\factorial(n)\main.py ...         [100%]
+
+- generated xml file: C:\ProgramData\Jenkins\.jenkins\workspace\EXAM\pytest-report.xml -
+=============================== tests coverage ================================
+_______________ coverage: platform win32, python 3.13.7-final-0 _______________
+
+Name                                                           Stmts   Miss  Cover
+----------------------------------------------------------------------------------
+C:\Users\artem\Desktop\EXAM\Factorial(n)\factorial_module.py       3      0   100%
+----------------------------------------------------------------------------------
+TOTAL                                                              3      0   100%
+Coverage XML written to file coverage.xml
+============================== 3 passed in 0.24s ==============================
